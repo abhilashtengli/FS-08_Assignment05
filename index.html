@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment05</title>
+    <style>
+        form {
+            border: 1px solid black;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            background-color: aliceblue;
+            border-radius: 10px;
+        }
+        input,textarea{
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h1>Personal details</h1>
+
+        <label for="">Firstname :</label>
+        <input type="text" name="firstname" placeholder="Enter your Firstname"> <br> <br>
+        <label for="">Middlename :</label>
+        <input type="text" name="middlename" placeholder="Enter your Middlename"> <br> <br>
+        <label for="">Lastname :</label>
+        <input type="text" name="lastname" placeholder="Enter your Lastname"> <br> <br>
+        <label for="">Course</label>
+        <select name="" id="">
+            <option value="Course">Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="MBA">MBA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MCA">MCA</option>
+            <option value="M.Tech">M.Tech</option>
+        </select> <br> <br>
+        <label for="">Gender :</label>
+        <input type="radio" name="male">Male
+        <input type="radio" name="female">Female
+        <input type="radio" name="other">other <br> <br>
+
+        <label for="DOB">DOB</label>
+        <input type="date"> <br> <br>
+
+        <label for="Phone ">Phone :</label>
+        <input type="text" size="2" name="countrycode" value="+91" readonly>
+        <input type="text" size="10" name="phonenumber"> <br> <br>
+
+        <label for="address">Address :</label> <br>
+        <textarea value="address" id="" cols="75" rows="5" placeholder="Enter your Address.."></textarea><br> <br>
+        <label for="email">Email :</label>
+        <input type="email" placeholder="Enter your Email"> <br> <br>
+
+        <label for="password">Password :</label>
+        <input type="password" placeholder="Enter your password"> <br> <br>
+
+        <label for="password">Re-type Password :</label>
+        <input type="password" placeholder="Re-Enter your Password"> <br> <br>
+
+        <input type="checkbox"> Agree to terms and conditions <br> <br>
+
+        <label for="file">Choose File</label>
+        <input type="file"> <br> <br>
+
+        <label for="colour">Choose colour</label>
+        <input type="color"> <br> <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+
+    </form>
+</body>
+
+</html>
